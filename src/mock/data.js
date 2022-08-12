@@ -31,7 +31,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'ipaymy.png',
-    title: 'My Shop',
+    title: 'ipaymy',
     info: 'Re-design and redevelop the entire web application. Start with small fixes to learn the code base, simple improvements, and finally complex features.Manage deployment and expansion of website marketing responsibilities with minimal guidance, with no uptime interruptions.',
     info2: '(ReactJS/Redux, TypeScript, SASS, GitLab)',
     url: 'https://www.ipaymy.com',
