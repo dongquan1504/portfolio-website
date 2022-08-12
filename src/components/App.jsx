@@ -22,7 +22,7 @@ function App() {
     setProjects([...projectsData]);
     setContact({ ...contactData });
     setFooter({ ...footerData });
-  }, []);
+  }, [heroData, aboutData, projectsData, contactData, footerData]);
 
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>

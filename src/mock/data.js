@@ -2,56 +2,67 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Duong Dong Quan', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  name: 'Dong Quan',
+  subtitle: "I'm the Self-taught Developer.",
+  cta: 'hire me',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  paragraphOne:
+    "Hi, I'm a creative person and interested in almost everything. And finally, I stop at web programming. I am impressed with website design, application products since I have started to learn them. I found my passion and decided to follow it. Fight to improve myself for my passion.",
+  paragraphTwo:
+    'With the desire of learning new knowledge, exprience, skills as well as contributing in the development of your company. I would like to join your team as a fresher developer.',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1XUksNIb2_yHU2Wgh78m0bMRLgIllvwtG/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'ipaymy.png',
+    title: 'My Shop',
+    info: 'Re-design and redevelop the entire web application. Start with small fixes to learn the code base, simple improvements, and finally complex features.Manage deployment and expansion of website marketing responsibilities with minimal guidance, with no uptime interruptions.',
+    info2: '(ReactJS/Redux, TypeScript, SASS, GitLab)',
+    url: 'https://www.ipaymy.com',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'myshop.jpg',
+    title: 'My Shop',
+    info: 'A full-stack web application with the account security system. Website specialize in selling and buying clothes online. Setting payment via Visa.',
+    info2: '(ReactJS/Redux, NodeJS/ExpressJS, Knex.js, Firebase, Heroku)',
+    url: 'https://crwn-live1504.herokuapp.com',
+    repo: 'https://github.com/dongquan1504/crwn-clothing', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'monsteria.jpg',
+    title: 'Greek Monster',
+    info: 'A website app with monster picture cards, this website allows you to search all Greek monsters',
+    info2: '(ReactJS/Redux, CSS, HTML5, tachyons)',
+    url: 'https://dongquan1504.github.io/Greek-Monster',
+    repo: 'https://github.com/dongquan1504/Greek-Monster', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'smartBrain.png',
+    title: 'Face Detection',
+    info: 'A full-stack web application with the latest technologies, this app allows you to identify the detection of faces in any image supplied (using the artificial intelligence API named Clarifai)',
+    info2: '(ReactJS/Redux, NodeJS/ExpressJS, js, Heroku)',
+    url: 'https://smart-brain1504.herokuapp.com',
+    repo: 'https://github.com/dongquan1504/Face-Detection', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +70,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'dongquan15041@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,27 +79,27 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/ngQunDng1',
     },
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/dongquan1504',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/quan1504',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/dongquan1504',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
