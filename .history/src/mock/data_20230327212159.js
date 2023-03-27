@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'With the desire of learning new knowledge, exprience, skills as well as contributing in the development of your company. I would like to join your team as a fresher developer.',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1F_Z0LOgh_Bp_MA480aI3Xxb4XaGlm6oR/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1XUksNIb2_yHU2Wgh78m0bMRLgIllvwtG/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -43,7 +43,7 @@ export const projectsData = [
     title: 'My Shop',
     info: 'A full-stack web application with the account security system. Website specialize in selling and buying clothes online. Setting payment via Visa.',
     info2: '(ReactJS/Redux, NodeJS/ExpressJS, Knex.js, Firebase, Heroku)',
-    url: 'https://crwn-clothingw.netlify.app',
+    url: 'https://crwn-live1504.herokuapp.com',
     repo: 'https://github.com/dongquan1504/crwn-clothing', // if no repo, the button will not show up
   },
   {
@@ -61,7 +61,7 @@ export const projectsData = [
     title: 'Face Detection',
     info: 'A full-stack web application with the latest technologies, this app allows you to identify the detection of faces in any image supplied (using the artificial intelligence API named Clarifai)',
     info2: '(ReactJS/Redux, NodeJS/ExpressJS, js, Heroku)',
-    url: 'https://face-detection1504.netlify.app',
+    url: 'https://smart-brain1504.herokuapp.com',
     repo: 'https://github.com/dongquan1504/Face-Detection', // if no repo, the button will not show up
   },
 ];

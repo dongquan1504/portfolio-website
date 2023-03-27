@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'With the desire of learning new knowledge, exprience, skills as well as contributing in the development of your company. I would like to join your team as a fresher developer.',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1F_Z0LOgh_Bp_MA480aI3Xxb4XaGlm6oR/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1XUksNIb2_yHU2Wgh78m0bMRLgIllvwtG/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
